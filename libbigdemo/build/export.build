@@ -1,0 +1,6 @@
+$out_root/
+{
+  include libbigdemo/
+}
+
+export $out_root/libbigdemo/$import.target

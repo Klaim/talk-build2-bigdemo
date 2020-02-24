@@ -1,0 +1,18 @@
+: 1
+name: libbigdemo
+version: 0.1.0-a.0.z
+project: bigdemo
+summary: bigdemo C++ library
+license: proprietary
+description-file: README.md
+url: https://example.org/bigdemo
+email: mjklaim@gmail.com
+depends: * build2 >= 0.12.0
+depends: * bpkg >= 0.12.0
+
+depends: fmt ^6.0.0
+depends: sol2 ^3.2.0
+depends: sqlite3 ^3.0.0
+depends: libsqlite3 ^3.0.0
+depends: nlohmann-json ^3.0.0
+
