@@ -13,7 +13,7 @@ namespace bigdemo
   void say_hello (ostream& o, const string& n)
   {
     if (n.empty ())
-      throw invalid_argument ("empty name");
+      throw invalid_argument ("empty name lol");
 
     o << "Hello, " << n << '!' << endl;
   }

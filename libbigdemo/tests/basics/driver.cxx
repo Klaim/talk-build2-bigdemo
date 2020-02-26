@@ -28,6 +28,6 @@ int main ()
   }
   catch (const invalid_argument& e)
   {
-    assert (e.what () == string ("empty name"));
+    assert (e.what () == string ("empty name lol"));
   }
 }
