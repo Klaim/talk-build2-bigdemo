@@ -5,6 +5,7 @@
 
 #include <ostream>
 #include <stdexcept>
+#include <iostream>
 
 using namespace std;
 
@@ -16,5 +17,10 @@ namespace bigdemo
       throw invalid_argument ("empty name lol");
 
     o << "Hello, " << n << '!' << endl;
+  }
+
+  void kikoo(std::string text)
+  {
+    std::cout << text << std::endl;
   }
 }
