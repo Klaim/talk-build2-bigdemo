@@ -12,4 +12,7 @@ namespace bigdemo
   //
   LIBBIGDEMO_SYMEXPORT void
   say_hello (std::ostream&, const std::string& name);
+
+  LIBBIGDEMO_SYMEXPORT void
+  kikoo (const std::string& name);
 }
